@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.DEBUG  # Измените на DEBUG для максимального вывода
+    level=logging.DEBUG 
 )
 def create_db():
     """Создает таблицу пользователей, если она не существует."""
